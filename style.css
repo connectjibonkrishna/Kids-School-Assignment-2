@@ -154,3 +154,88 @@ body {
         font-size: 0.875rem;
     }
 }
+
+/* curriculum section styles */
+.curriculum-cards-container{
+    gap: 28.5px;
+    margin-bottom: 80px;
+}
+
+.section-title{
+    font-size: 2.8rem;
+    color: #000000;
+    margin: 60px 0 80px;
+    text-align: center;
+}
+
+.curriculum-card{
+    /* flex-direction: column; */
+    text-align: center;
+    padding: 50px 40px;
+    border-radius: 19px;
+    box-shadow: 0 0 28px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card-title{
+    color: #202020;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 32px 0;
+}
+
+.card-discription{
+    font-size: 0.95rem;
+    color: #808080;
+    font-weight: 400;
+    margin-bottom: 34px;
+}
+
+.card-btn{
+    border: none;
+    background-color: #F7F7F7;
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
+.cb1{
+    color: #64C8FF;
+}
+
+.cb2{
+    color: #F0AA00;
+}
+
+.cb3{
+    color: #8700FF;
+}
+
+.ccd1{
+    /* background: linear-gradient(to bottom, #DEF5FF, #FFFFFF); */
+    background: linear-gradient(to bottom, rgba(222, 245, 255, 1) 0%, rgba(255, 255, 255, 0) 40%);
+}
+
+.ccd2{
+    background: linear-gradient(to bottom, rgba(255, 244, 220, 1) 0%, rgba(255, 255, 255, 0) 40%);
+}
+
+.ccd3{
+    background: linear-gradient(to bottom, rgba(238, 225, 255, 1) 0%, rgba(255, 255, 255, 0) 40%);
+}
+
+.arrow-btn-container{
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.arrow-btn{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-color: #FEA301;
+    margin-bottom: 60px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
