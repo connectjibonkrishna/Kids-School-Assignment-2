@@ -1,9 +1,9 @@
+/* at 576px in my local server it is perfectly showing the mobile-view design, but in live link the design not showing perfectly. as the time is almost over, I am submitting it as it is, but I will must learn how to solve this and will try it again. */
+
 * {
     margin: 0;
     padding: 0;
 }
-
-/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); */
 
 .quicksand-normal {
     font-family: "Quicksand", serif;
