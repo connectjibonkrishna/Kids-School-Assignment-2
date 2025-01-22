@@ -393,13 +393,9 @@ footer p{
 
 
 @media screen and (max-width: 576px) {
-    *{
-        /* margin: 0 auto; */
-    }
-
+   
     body{
         margin: 0 1rem;
-        /* max-width: 576px; */
     }
     
     .nav-title,
@@ -410,8 +406,6 @@ footer p{
 
     .hero {
         flex-direction: column-reverse;
-        /* justify-content: center; */
-        /* align-items: center; */
         text-align: center;
         max-width: 100vw;
     }
@@ -420,7 +414,6 @@ footer p{
         margin: 0 auto;
     }
     .hero-img img{
-        /* max-width: 337px; */
         width: 100%;
     }
     
@@ -437,10 +430,6 @@ footer p{
 
     .curriculum-cards-container{
         flex-direction: column;
-    }
-
-    .curriculum-card{
-        /* width: 80vw; */
     }
 
     .arrow-btn-container{
